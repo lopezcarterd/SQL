@@ -1,0 +1,19 @@
+Create a ice cream store database
+
+CREATE TABLE IceCream (id INTEGER PRIMARY KEY, Flavor TEXT, Scoops INTEGER, Topping TEXT, Drizzle TEXT, Price INTEGER);
+
+INSERT INTO IceCream VALUES (1, "Vanilla", "2","GummyBears", "Strawberry", "$15");
+INSERT INTO IceCream VALUES (2, "Chocolate", "1", "Cherry", "Milk", "$10");
+INSERT INTO IceCream VALUES (3,"Strawberry", "1", "None", "GummyBears", "$8");
+INSERT INTO IceCream Values (4, "Peach", "2", "None", "None", "$5");
+INSERT INTO IceCream Values (5, "Vanilla", "1", "None", "Chocolate", "$5");
+INSERT INTO IceCream Values (6, "Fruity Pebbles", "1", "GummyBears", "None", "$8");
+INSERT INTO IceCream Values (7, "CottonCandy", "2", "None", "None", "$10");
+INSERT INTO IceCream Values (8, "Raspberry", "1", "None", "Chocolate", "$8");
+INSERT INTO IceCream Values (9, "Chocolate", "1", "Sprinkles", "None", "$10"); 
+INSERT INTO IceCream Values (10, "CookieDough", "2", "None", "None", "$8");
+INSERT INTO IceCream Values (11, "CookieDough", "1", "None", "None", "$5");
+INSERT INTO IceCream Values (12, "Cheesecake", "2", "None", "Strawberry", "$10");
+INSERT INTO IceCream Values (13, "Vanilla", "2", "GummyWorms", "None", "$10");
+INSERT INTO IceCream Values (14, "Vanilla", "1", "GummyBears", "Chocolate", "$10");
+INSERT INTO IceCream Values (15, "Chocolate", "2", "None", "None", "$8");
